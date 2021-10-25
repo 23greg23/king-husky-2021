@@ -2,12 +2,6 @@
   width: 100%;
   height: 100%;
 }
-
-/*
-div.cd-timeline-block.firstKing .swiper {
-    height: 550px;
-}
-*/
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -60,6 +54,8 @@ div.slideRight {
 
 }
 
+div.cd-timeline-block.firstKing div.slideLeft, div.cd-timeline-block.interregnum div.slideLeft {
+height: 580px;}
 div.swiper-slide {
     display: block;
     background-color: #666;
@@ -88,7 +84,7 @@ div.smallPhotosTop {
     width: 45%;
     float: left;
     position: relative;
-    top: 480px;
+    top: 550px;
     left: -49%;
     display: block;
     z-index: 150;
@@ -113,8 +109,8 @@ div.smallPhoto1b {
     transform: rotate(5deg);
 }
 div.smallPhoto3a {
-    width: 70%;
-    float: left;
+width: 70%;
+float: left;
 transform: rotate(-5deg);
 }
 
@@ -177,11 +173,6 @@ div.smallPhotosTop, div.smallPhotosTop3 {display: none;}
 
 @media only screen and (max-width: 425px) {
 .swiper-button-next, .swiper-button-prev, swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {display: none!important;}
-/*
-    .cd-timeline-block.firstKing div.explainer {
-    float:left;
-    margin-top: -6em;}
-*/
  .cd-timeline-block.interregnum div.explainer {
     float:none;
     margin-top: -7em;}
