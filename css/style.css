@@ -23,12 +23,10 @@ background-size: cover;
 
 p {
 font-family: harriet,serif;
-/*padding: 2px 0;*/
-/*font-size: 20px;*/
 color: #333;
 }
 p, pre {
-    margin: 0 0 0 0;
+margin: 0 0 0 0;
 }
 p.bold {
 font-weight: 700;
@@ -40,8 +38,8 @@ font-weight: 600;
 font-size: 80%;
 width: 100%;
 text-align: center;
-    position: relative;
-    top: 38px;
+position: relative;
+top: 38px;
 }
 
 p.mobileDate {display: none;}
@@ -195,7 +193,7 @@ z-index: 100;
 
 /* MEDIA QUERIES */
  /* 1170 1 */
-@media only screen and (min-width: 800px) {    
+@media only screen and (min-width: 800px) {
 #cd-timeline {
   position: relative;
   margin-top: 0em;
@@ -218,7 +216,7 @@ margin-left: -25px;}
 .cd-timeline-block {
 position: relative;
 margin: 2em 0em 2em 0em;
-clear: both;}   
+clear: both;}
 .cd-timeline-block.tumult {
 position: relative;
 margin: 2em 0em 5em 0em;
@@ -257,7 +255,7 @@ clear: both;}
 	height: 20px;
 
    }
-    
+
     #kingHusky div.explainer h1 {
     margin-top: 1em;}
 }
@@ -287,9 +285,9 @@ clear: both;}
 @media only screen and (max-width: 800px) {
 .article-content {
 padding: 0px 20px 0;}
-    
+
 .cd-timeline-img, .cd-timeline-content::before  {display: none;}
- 
+
 .cd-timeline-content .cd-date {
 float: left;
 margin-top: -100px;
@@ -459,7 +457,7 @@ span.cd-date img {width: 100%;}
     border-right-color: #cc0000;
 
   }
-    
+
 
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
